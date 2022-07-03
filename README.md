@@ -8,6 +8,10 @@
 + WeakPass Wordlist (small, 29GB): https://download.weakpass.com/wordlists/1947/weakpass_3.7z
 + *(WeakPass Wordlist (huge, 108GB): https://download.weakpass.com/wordlists/1948/weakpass_3a.7z)*
 
+## Is password cracking legal?
+
+The short answer is “it depends”. There are a lot of vastly regulations in different countries; some even make it illegal to hide the password from the authorities if they ask – like in France, the country of Liberté. In general, passwords are used to restrict access to the data (and it is also important whose data it is, and who’s asking). Obviously, nobody can stop you from breaking your own password that you forgot; however, if this password protect access to your data stored in some online service, it does not actually matter that the account is yours – you cannot legally break it. In other words, cracking passwords is perfectly legal if you work with local data and the data is yours, or if you have the permission from the legal owner, or if you represent the law and follow the local regulations. Cracking someone else’s data might be a criminal offence, but there is a huge gray area.
+
 ## How to crack PDF passwords (2-steps process)
 
 It's a 2 step process. First, we need to generate the hash value with pdf2john.pl, and then crack the hash value with hashcat:
